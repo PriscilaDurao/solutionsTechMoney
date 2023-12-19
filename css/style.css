@@ -244,3 +244,25 @@ footer {
   align-self: center;
   padding-top: 1rem;
 }
+.logins {
+ font-size:25px;
+ font-family: 'Montserrat', sans-serif;
+ padding-top: 3rem;
+  padding-left: 70rem;
+}
+.return__button {
+ 
+}
+
+/* pagina login e senha */
+.user__box{
+  padding: 90px;
+  padding-top: 5rem;
+  padding-left: 70rem;
+
+}
+.acsses__button{
+  background-color:linear-gradient(0deg, rgba(217, 217, 217, 1) 0%, rgba(123, 85, 231, 0.7659433402267157) 2%, rgba(235, 141, 10, 0.53) 64%);
+  align-self: center;
+padding: 15px;
+}
