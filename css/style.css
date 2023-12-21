@@ -1,8 +1,16 @@
+@font-face {
+  font-family: "SegoeUI";
+  src: local("SegoeUI"),
+    url("./fonts/SegoeUI.ttf") format("truetype");
+  font-weight: bold;
+}
+
 * {
   padding: 0;
   margin: 0;
   outline: 0;
   box-sizing: border-box;
+  font-family: "SegoeUI";
 }
 
 :root {
@@ -159,6 +167,17 @@ body.darkMode {
 ::placeholder {
   font-size: 18px;
   color: var(--colortext-placeholder);
+}
+
+/* Carrossel */
+
+.carousel {
+  width: 300px;
+  margin-top: 40px;
+}
+
+.carousel-item{
+  height: 30px;
 }
 
 /* Footer */
