@@ -1,8 +1,16 @@
+@font-face {
+  font-family: "SegoeUI";
+  src: local("SegoeUI"),
+    url("./fonts/SegoeUI.ttf") format("truetype");
+  font-weight: bold;
+}
+
 * {
   padding: 0;
   margin: 0;
   outline: 0;
   box-sizing: border-box;
+  font-family: "SegoeUI";
 }
 
 :root {
@@ -161,6 +169,17 @@ body.darkMode {
   color: var(--colortext-placeholder);
 }
 
+/* Carrossel */
+
+.carousel {
+  width: 300px;
+  margin-top: 40px;
+}
+
+.carousel-item{
+  height: 30px;
+}
+
 /* Footer */
 
 footer {
@@ -243,4 +262,26 @@ footer {
   height: 9rem;
   align-self: center;
   padding-top: 1rem;
+}
+.logins {
+ font-size:25px;
+ font-family: 'Montserrat', sans-serif;
+ padding-top: 3rem;
+  padding-left: 70rem;
+}
+.return__button {
+ 
+}
+
+/* pagina login e senha */
+.user__box{
+  padding: 90px;
+  padding-top: 5rem;
+  padding-left: 70rem;
+
+}
+.acsses__button{
+  background-color:linear-gradient(0deg, rgba(217, 217, 217, 1) 0%, rgba(123, 85, 231, 0.7659433402267157) 2%, rgba(235, 141, 10, 0.53) 64%);
+  align-self: center;
+padding: 15px;
 }
