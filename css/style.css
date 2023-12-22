@@ -1,8 +1,16 @@
+@font-face {
+  font-family: "SegoeUI";
+  src: local("SegoeUI"),
+    url("./fonts/SegoeUI.ttf") format("truetype");
+  font-weight: bold;
+}
+
 * {
   padding: 0;
   margin: 0;
   outline: 0;
   box-sizing: border-box;
+  font-family: "SegoeUI";
 }
 
 :root {
@@ -116,51 +124,6 @@ body.darkMode {
   background-color: var(--background-dark);
 }
 
-/* Pesquisar */
-.search {
-  padding: 20px 2rem;
-  display: flex;
-  /* align-items: center; */
-  justify-content: space-around;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-.searchBox {
-  width: 50%;
-  height: 3.5rem;
-  border: 2px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50px;
-  background-color: #fff;
-  display: flex;
-}
-
-.searchImg {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  margin-left: 1px;
-  margin-top: 2px;
-}
-
-.formSearch {
-  border: none;
-  margin-left: 1%;
-  background-color: none;
-  outline: none;
-  margin-top: 3.5px;
-}
-
-.searchBox input {
-  width: 90%;
-  text-align: left;
-}
-
-::placeholder {
-  font-size: 18px;
-  color: var(--colortext-placeholder);
-}
-
 /* Footer */
 
 footer {
@@ -229,7 +192,7 @@ footer {
   height: 6rem;
 }
 
-/* pagina fundadores */
+/* rodapé fundadores */
 
 .founders {
   display: flex;
@@ -249,9 +212,6 @@ footer {
  font-family: 'Montserrat', sans-serif;
  padding-top: 3rem;
   padding-left: 70rem;
-}
-.return__button {
- 
 }
 
 /* pagina login e senha */
