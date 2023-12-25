@@ -1,0 +1,56 @@
+
+/* Pesquisar */
+.search {
+    padding: 20px 2rem;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .searchBox {
+    width: 50%;
+    height: 3.5rem;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    background-color: #fff;
+    display: flex;
+  }
+  
+  .searchImg {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+  
+  .formSearch {
+    border: none;
+    margin-left: 1%;
+    background-color: none;
+    outline: none;
+    margin-top: 3.5px;
+  }
+  
+  .searchBox input {
+    width: 90%;
+    text-align: left;
+  }
+  
+  ::placeholder {
+    font-size: 18px;
+    color: var(--colortext-placeholder);
+  }
+  
+  /* Carrossel */
+  
+  .carousel {
+    width: 300px;
+    margin-top: 40px;
+  }
+  
+  .carousel-item{
+    height: 30px;
+  }
