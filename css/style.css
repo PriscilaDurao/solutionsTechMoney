@@ -19,7 +19,7 @@
   --background-dark: rgb(21, 20, 20);
   --colortext-placeholder: rgb(112, 112, 112);
   --colortext-footer: rgba(0, 0, 0, 0.68);
-  --boxcolor: rgba(255, 255, 255, 0.85);
+  --boxcolor: rgb(255, 255, 255);
   }
 
 html {
