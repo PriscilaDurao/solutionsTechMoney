@@ -18,8 +18,9 @@
   --background-padrao: rgb(217, 217, 217);
   --background-dark: rgb(21, 20, 20);
   --colortext-placeholder: rgb(112, 112, 112);
-  --colortext-footer: rgb(40, 38, 38);
-}
+  --colortext-footer: rgba(0, 0, 0, 0.68);
+  --boxcolor: rgba(255, 255, 255, 0.85);
+  }
 
 html {
   height: 100%;
@@ -65,7 +66,13 @@ header {
 .cartImg {
   width: 3.3rem;
   height: 3rem;
-  padding-left: 1rem;
+  padding-left: 0.5rem;
+}
+
+.homeimg {
+  width: 3rem;
+  height: 3rem;
+  padding-left: 1px;
 }
 
 .up {
@@ -124,6 +131,8 @@ body.darkMode {
   background-color: var(--background-dark);
 }
 
+
+
 /* Footer */
 
 footer {
@@ -154,6 +163,9 @@ footer {
   width: 20rem;
   font-size: 15px;
   margin-top: 3px;
+  line-height: normal;
+  text-align: center;
+  color: var(colortext-footer);
 }
 
 .contact {
@@ -162,11 +174,13 @@ footer {
   padding-top: 2rem;
   padding-bottom: 1rem;
   align-self: center;
+  color: var(colortext-footer);
 }
 
 .textcontact {
   font-size: 15px;
   align-self: center;
+  color: var(colortext-footer);
 }
 
 .text {
@@ -176,7 +190,7 @@ footer {
   text-align: center;
   padding-top: 2rem;
   align-self: center;
-
+  color: var(colortext-footer);
 }
 
 .devs {
@@ -184,6 +198,7 @@ footer {
   font-weight: bold;
   padding-top: 2rem;
   padding-bottom: 1rem;
+  color: var(colortext-footer);
 }
 
 .foundersSTM {
@@ -199,6 +214,7 @@ footer {
   align-items: center;
   width: 100%;
   justify-content: center;
+  color: var(colortext-footer);
 }
 
 .logofounders {
@@ -207,10 +223,10 @@ footer {
   align-self: center;
   padding-top: 1rem;
 }
+
 .logins {
- font-size:25px;
- font-family: 'Montserrat', sans-serif;
- padding-top: 3rem;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 3rem;
   padding-left: 70rem;
 }
-
