@@ -1,7 +1,4 @@
 /* pagina login e senha */
-:root{
-    --cor-padrao:linear-gradient(0deg, rgba(217, 217, 217, 1) 0%, rgba(123, 85, 231, 0.7659433402267157) 2%, rgba(235, 141, 10, 0.53) 64%);
-}
 .user__box{
     padding: 30px;
     padding-left: 50px;
@@ -11,8 +8,10 @@
   }
   .acsses__button{
    display: flex;
-   background-color: var(--cor-padrao);
+   background: var(--gradient-color);
    border-radius: 5px;
    padding: 1em;
+   width: 20rem;
+   height: 10rem;
   }
   

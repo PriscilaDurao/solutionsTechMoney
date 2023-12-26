@@ -20,7 +20,9 @@
   --colortext-placeholder: rgb(112, 112, 112);
   --colortext-footer: rgba(0, 0, 0, 0.68);
   --boxcolor: rgb(255, 255, 255);
-  }
+  --gradient-color: linear-gradient(0deg, rgba(217, 217, 217, 1) 0%, rgba(123, 85, 231, 0.7659433402267157) 2%, rgba(235, 141, 10, 0.53) 64%);
+  height: 10rem;
+}
 
 html {
   height: 100%;
@@ -45,7 +47,7 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(0deg, rgba(217, 217, 217, 1) 0%, rgba(123, 85, 231, 0.7659433402267157) 2%, rgba(235, 141, 10, 0.53) 64%);
+  background: var(--gradient-color);
   height: 10rem;
   box-sizing: border-box;
 }
@@ -137,7 +139,7 @@ body.darkMode {
 footer {
   padding-inline: 3.5rem;
   background: rgb(123, 85, 231);
-  background: linear-gradient(0deg, rgba(123, 85, 231, 1) 0%, rgba(238, 144, 14, 0.53) 53%, rgba(217, 217, 217, 1) 89%);
+  background: var(--gradient-color);
   height: 15.4rem;
   width: 100%;
   display: flex;
