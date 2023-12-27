@@ -17,11 +17,11 @@
   font-size: 62.5%;
   --background-padrao: rgb(217, 217, 217);
   --background-dark: rgb(21, 20, 20);
+  --background-sec-dark: rgb(41, 40, 40);
   --colortext-placeholder: rgb(112, 112, 112);
   --colortext-footer: rgba(0, 0, 0, 0.68);
   --boxcolor: rgb(255, 255, 255);
   --gradient-color: linear-gradient(0deg, rgba(217, 217, 217, 1) 0%, rgba(123, 85, 231, 0.7659433402267157) 2%, rgba(235, 141, 10, 0.53) 64%);
-  height: 10rem;
 }
 
 html {

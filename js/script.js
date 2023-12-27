@@ -6,4 +6,3 @@ function darkMode() {
 function lightMode() {
   document.body.classList.remove("darkMode");
 }
-

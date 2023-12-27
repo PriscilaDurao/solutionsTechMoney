@@ -1,0 +1,116 @@
+.title_up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo_suport {
+    width: 22rem;
+    height: 12rem;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+}
+
+.title_suport {
+    margin-top: -6em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text_suport1,
+.text_suport2 {
+    text-align: center;
+}
+
+.text_suport1 {
+    font-weight: bolder;
+}
+
+.text_suport2 {
+    color: rgba(0, 0, 0, 0.68);
+}
+
+.contact_suport {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+form {
+    width: 55rem;
+    height: 36rem;
+    border-radius: 10px;
+    background: var(--boxcolor);
+    margin-top: -1.5rem;
+
+}
+
+.contact_box {
+    width: 45rem;
+    height: 2rem;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background-color: var(--boxcolor);
+    display: flex;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 1.7rem;
+    margin-left: 4.5rem;
+    
+}
+
+.msg_suport {
+    width: 45rem;
+    height: 18rem;
+    border-radius: 20px;
+    border: 1px solid #000;
+    font-size: 15px;
+    margin-top: 1rem;
+    padding: 1rem;
+    resize: none;
+    background-color: var(--boxcolor);
+}
+
+.check {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 4.5rem;
+    font-size: 18px;
+}
+
+.checkbox {
+    margin-right: 4.5rem;
+    justify-content: space-around;
+    border: 1px solid #000;
+}
+
+.send_suport {
+    background: rgba(137, 113, 203, 0.766);
+    width: 15rem;
+    height: 4rem;
+    border-radius: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.send_suport:hover {
+    background-color: rgba(235, 160, 10, 0.53);
+    ;
+}
+
+body.darkmode form .send_suport:hover {
+    background-color: var(--background-sec-dark);
+    border-color: var(--boxcolor);
+}
+
+body.darkMode form input,
+body.darkMode form textarea {
+    background-color: var(--background-sec-dark);
+    color: var(--boxcolor);
+}
