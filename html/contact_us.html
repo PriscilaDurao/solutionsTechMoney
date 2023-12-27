@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/contact_us.css"/>
+    <link rel="stylesheet" href="../css/contact_us.css" />
     <script src="../js/script.js" defer></script>
 
     <title>Solutions Tech Money</title>
@@ -19,7 +19,11 @@
       /></a>
       <div class="up">
         <a href="home.html" class="home">
-          <img src="../assets/home.png" alt="Botão para ir para página Home" class="homeimg"/>
+          <img
+            src="../assets/home.png"
+            alt="Botão para ir para página Home"
+            class="homeimg"
+          />
         </a>
         <a href="login.html" class="login">
           <img src="../assets/user.png" alt="Login" class="loginImg" />
@@ -27,15 +31,72 @@
       </div>
     </header>
     <main>
-      <div class="switch">
-        <button class="buttonOff" onclick="darkMode()">
-          <img src="../assets/LightOff.png" alt="botão lampada dark mode" />
-        </button>
-        <button class="buttonOn" onclick="lightMode()">
-          <img src="../assets/LightOn.png" alt="botão lampada light mode" />
-        </button>
+      <div class="title_up">
+        <img
+          src="../assets/logoSTMsuporte.png"
+          alt="Logo STM"
+          class="logo_suport"
+        />
+        <div class="switch">
+          <button class="buttonOff" onclick="darkMode()">
+            <img src="../assets/LightOff.png" alt="botão lampada dark mode" />
+          </button>
+          <button class="buttonOn" onclick="lightMode()">
+            <img src="../assets/LightOn.png" alt="botão lampada light mode" />
+          </button>
+        </div>
+      </div>
+      <div class="title_suport">
+        <h2 class="text_suport1">SUPORTE</h2>
+        <h4 class="tex_tsuport2">Como deseja entrar em contato?</h4>
+      </div>
+      <div class="contact_suport">
+        <form method="POST" id="form_suport">
+          <input
+            class="contact_box"
+            id="name_suport"
+            name="name_suport"
+            type="text"
+            placeholder="Insira seu nome"
+          />
+          <input
+            class="contact_box"
+            id="email_suport"
+            name="email_suport"
+            type="email"
+            placeholder="Insira seu E-mail"
+          />
+          <textarea
+            class="msg_suport"
+            id="msg_suport"
+            name="msg_suport"
+            maxlength="410"
+            placeholder="Escreva sua mensagem aqui..."
+          ></textarea>
+          <br />
+
+          <div class="check">
+            <div>
+              <input type="checkbox" name="receive_email" id="receive_email" />
+              <label for="receive_email">Receber E-mail. </label>
+            </div>
+            <div>
+              <input type="checkbox" name="receive_email" id="receive_email" />
+              <label for="receive_email">Entrar em contato. </label>
+            </div>
+            <br />
+          </div>
+          <input
+            type="button"
+            class="send_suport"
+            name="send"
+            id="send"
+            value="Enviar"
+          />
+        </form>
       </div>
     </main>
+
     <footer>
       <div class="baseboard">
         <img src="../assets/logoemp2.png" class="customerlogo" />
