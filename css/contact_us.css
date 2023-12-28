@@ -59,7 +59,7 @@ form {
     text-align: center;
     margin-top: 1.7rem;
     margin-left: 4.5rem;
-    
+
 }
 
 .msg_suport {
@@ -101,7 +101,23 @@ form {
 
 .send_suport:hover {
     background-color: rgba(235, 160, 10, 0.53);
-    ;
+
+}
+
+.contact_tel {
+    position: relative;
+    margin-top: -35rem;
+    margin-left: 108rem;
+}
+
+.contact_tel2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_tel2 img {
+    width: 8rem;
+    margin: 2rem;
 }
 
 body.darkmode form .send_suport:hover {
@@ -109,7 +125,7 @@ body.darkmode form .send_suport:hover {
     border-color: var(--boxcolor);
 }
 
-body.darkMode form input,
+body.darkMode form input, body.darkMode form,
 body.darkMode form textarea {
     background-color: var(--background-sec-dark);
     color: var(--boxcolor);
