@@ -3,8 +3,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-}
 
+}
+.cabecalho__logins{
+font-family: 'Montserrat', sans-serif;
+font-style: bold;
+font-size: 50px;
+}
 .user {
   display: flex;
   flex-direction: column;
@@ -28,7 +33,7 @@
 
 
 .acsses__button {
-  background: rgba(137, 113, 203, 0.766);
+  background: #8971cbc3;
   width: 25rem;
   height: 4rem;
   border-radius: 10px;
@@ -39,10 +44,7 @@
   
 
 }
-a:hover{ background-color:  rgba(235, 160, 10, 0.53);;
+.acsses__button:hover{ background-color:  rgba(235, 160, 10, 0.53);
 }
-.show__password{
-width: 3rem;
-height: 3rem;
-}
+
 
