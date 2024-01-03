@@ -1,0 +1,47 @@
+.container__iventory{
+    position: relative;
+    width: 30%;
+    margin: 10px;
+}
+
+.invetory__text{
+    position: absolute;
+    top:15%; 
+    bottom:0;
+    left:40%;
+    right: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: bold;
+    font-size: 24px;
+    width: 50%;
+    height: 50%;
+}
+
+.main__select{
+    position: absolute;
+    top:20%; 
+    bottom:0;
+    left:45%;
+    right: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: bold;
+    font-size: 24px;
+    width: 50%;
+    height: 50%;
+   
+}
+
+.container__iventory img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.inventory__img{
+    position: absolute;
+    top:25%;
+    bottom:0;
+    left:5%;
+    right: 0;
+    width: 50%;
+    height: 50%;
+}
