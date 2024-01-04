@@ -1,12 +1,11 @@
-/* logins*/
+/* manager */
 
 .header {
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
     padding-top: 3rem;
     padding-left: 70rem;
-  }
-  
+  } 
   
   .header__title{
     font-family: 'Montserrat', sans-serif;
@@ -14,19 +13,12 @@
     font-size: 48px;
   }
   
-  .link__login{
-    width: 118px;
-    height: 108px;
-    flex-shrink: 0;
-    justify-content: space-around;
-  }
-  
   .choice__header{
     font-size: 30px;
     color: rgba(0, 0, 0, 0.68);
   }
   
-  .link__login__browse{
+  .link__browse{
     background: #8971cbc3;
     width: 25rem;
     height: 4rem;
@@ -43,7 +35,13 @@
     grid-auto-rows: 150px;
   }
   
-  .link__login__browse:hover{
-    background-color:  rgba(235, 160, 10, 0.53)
+  .link__browse:hover{
+    background-color: rgba(235, 160, 10, 0.53)
+  }
+  
+  .include__logo{
+    align-self: center;
+    width: 388px;
+    height: 167px;
   }
   
