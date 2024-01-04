@@ -52,29 +52,30 @@ header {
   box-sizing: border-box;
 }
 
-.logoEmpImg {
+.logo_Emp_Img {
   width: 12rem;
   height: 6rem;
   padding-left: 1.5rem;
 }
 
-.loginImg {
+.home_Img {
+  width: 3rem;
+  height: 3rem;
+  padding-left: 1px;
+}
+
+.login_Img {
   width: 3.5rem;
   height: 3.5rem;
   outline: 0;
 }
 
-.cartImg {
+.cart_Img {
   width: 3.3rem;
   height: 3rem;
   padding-left: 0.5rem;
 }
 
-.homeimg {
-  width: 3rem;
-  height: 3rem;
-  padding-left: 1px;
-}
 
 .up {
   padding-right: 2.3rem;
@@ -82,8 +83,8 @@ header {
 
 /* switch */
 
-.buttonOff img,
-.buttonOn img {
+.button_Off img,
+.button_On img {
   width: 2.5rem;
   height: 2.7rem;
 }
@@ -92,7 +93,7 @@ header {
   position: relative;
 }
 
-.buttonOn {
+.button_On {
   background-color: var(--background-dark);
   position: absolute;
   top: 2rem;
@@ -102,7 +103,7 @@ header {
   border: none;
 }
 
-.buttonOff {
+.button_Off {
   background-color: var(--background-padrao);
   position: absolute;
   top: 2rem;
@@ -110,12 +111,12 @@ header {
   border: none;
 }
 
-body.darkMode .switch .buttonOn {
+body.darkMode .switch .button_On {
   visibility: visible;
   opacity: 1;
 }
 
-body.darkMode .switch .buttonOff {
+body.darkMode .switch .button_Off {
   visibility: hidden;
   opacity: 0;
 }
@@ -148,19 +149,24 @@ footer {
   box-sizing: border-box;
 }
 
-.baseboard {
+.base_board {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-.customerlogo {
+.text_contact {
+  font-size: 15px;
+  align-self: center;
+  color: var(colortext-footer);
+}
+.customer_logo {
   align-self: center;
   width: 5rem;
   height: 4rem;
 }
 
-.textcustomerlogo {
+.text_customer_logo {
   width: 20rem;
   font-size: 15px;
   margin-top: 3px;
@@ -178,11 +184,6 @@ footer {
   color: var(colortext-footer);
 }
 
-.textcontact {
-  font-size: 15px;
-  align-self: center;
-  color: var(colortext-footer);
-}
 
 .text {
   font-size: 13px;
@@ -202,12 +203,6 @@ footer {
   color: var(colortext-footer);
 }
 
-.foundersSTM {
-  align-self: center;
-  width: 17rem;
-  height: 6rem;
-}
-
 /* rodapé fundadores */
 
 .founders {
@@ -218,7 +213,7 @@ footer {
   color: var(colortext-footer);
 }
 
-.logofounders {
+.logo_founders {
   width: 20rem;
   height: 9rem;
   align-self: center;
