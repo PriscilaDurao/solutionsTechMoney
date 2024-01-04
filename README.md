@@ -14,7 +14,7 @@
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Construído com](#-construído-com)
 - [Como executar o projeto](#-como-executar-o-projeto)
-- [Autores](#-autores)
+- [Autoras](#-autoras)
 
 
 --- 
