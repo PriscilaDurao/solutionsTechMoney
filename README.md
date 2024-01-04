@@ -12,8 +12,9 @@ Solutions Tech Money
 - [Sobre](#-sobre)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Construído com](#-construído-com)
-- [Autores](#-autores)
 - [Como executar o projeto](#-como-executar-o-projeto)
+- [Autores](#-autores)
+
 
 --- 
 
@@ -25,7 +26,7 @@ A ideia foi desenvolver um site para solucionar as grandes filas e insatisfaçõ
 
 --- 
 
-## 👨🏾‍💻 Tecnologias utilizadas
+## 👨🏾‍💻 Tecnologias Utilizadas
 
 ✓ HTML
 
@@ -37,6 +38,12 @@ A ideia foi desenvolver um site para solucionar as grandes filas e insatisfaçõ
 
 * [Visual Studio Code](https://code.visualstudio.com/) - ferramenta de desenvolvimento
 
+--- 
+
+## ⌨ Como executar o projeto
+
+CLicar no nosso link em nossa descrição
+
 ---
 
 ## 👩🏾 Autoras
@@ -45,3 +52,12 @@ A ideia foi desenvolver um site para solucionar as grandes filas e insatisfaçõ
 * **Priscila Durao** - *Desenvolvimento do código*  [PriscilaDurao](https://github.com/PriscilaDurao)
 * **Tatiana Aquino** - *Desenvolvimento do código*  [Tatiaquinoo](https://github.com/Tatiaquinoo)
 * **Thaís Andrade** - *Desenvolvimento do código*  [andradetoa](https://github.com/andradetoa)
+
+---
+
+## 🎁 Agradecimento
+
+* Agrademos o interesse em nosso projeto ❤️
+* Compartilhe com outras pessoas sobre o nosso projeto 📢
+
+---
