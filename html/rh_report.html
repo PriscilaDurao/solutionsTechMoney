@@ -1,87 +1,82 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/rh_report.css"/>
-    <script src="../js/script.js" defer></script>
 
-    <title>Solutions Tech Money</title>
-  </head>
-  <body>
-    <header id="top">
-      <a href="home.html" class="home"
-        ><img
-          src="../assets/logoemp.png"
-          alt="Coloque sua logo aqui."
-          class="logoEmpImg"
-      /></a>
-      <div class="up">
-        <a href="home.html" class="home">
-          <img src="../assets/home.png" alt="Botão para ir para página Home" class="homeimg"/>
-        </a>
-        <a href="login.html" class="login">
-          <img src="../assets/user.png" alt="Login" class="loginImg" />
-        </a>
-      </div>
-    </header>
-    <main>
-      <div class="switch">
-        <button class="buttonOff" onclick="darkMode()">
-          <img src="../assets/LightOff.png" alt="botão lampada dark mode" />
-        </button>
-        <button class="buttonOn" onclick="lightMode()">
-          <img src="../assets/LightOn.png" alt="botão lampada light mode" />
-        </button>
-      </div>
-    </main>
-    <main class="container__RH">
-    <div class="main__select__RH">
-      <select name="selecionar" id="selecionar">
-<option value="" disabled selected>
-Selecione a filial desejada
-</option>
-<option value="Filial 1">Filial 1</option>
-<option value="Filial 2">Filial 2</option>
-<option value="Filial 3">Filial 3</option>
-<option value="Filial 4">Filial 4</option>
-<option value="Filial 5">Filial 5</option>
-<option value="Filial 6">Filial 6</option>
-<option value="Filial 7">Filial 7</option>
-<option value="Filial 8">Filial 8</option>
-<option value="Filial 9">Filial 9</option>
-<option value="Filial 10">Filial 10</option>
-      </select>      
-      <section class="RH__ image">
-        <img src="../assets/RH.png">
-      </section>
-    </main>
-    <footer>
-      <div class="baseboard">
-        <img src="../assets/logoemp2.png" class="customerlogo" />
-        <p class="textcustomerlogo">
-          Poupe seu tempo, revolucione sua forma de fazer compras.
-        </p>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/rh_report.css" />
+  <script src="../js/script.js" defer></script>
 
-      <div class="baseboard">
-        <p class="contact">CONTATO</p>
-        <p class="textcontact">endereço</p>
-        <p class="textcontact">e-mail</p>
-        <p class="textcontact">telefone</p>
-        <p class="text">© 2023 Copyright:ServiceTechMoney</p>
-      </div>
+  <title>Solutions Tech Money</title>
+</head>
 
-      <div class="baseboard">
-        <p class="textfounderslogo">Site criado e desenvolvido por:</p>
-        <a href="founders.html" class="founders">
-          <img
-            src="../assets/logoSTM.png"
-            alt="Logo dos fundadores"
-            class="logofounders"
-        /></a>
+<body>
+  <header id="top">
+    <a href="home.html" class="home"><img src="../assets/logoemp.png" alt="Coloque sua logo aqui."
+        class="logoEmpImg" /></a>
+    <div class="up">
+      <a href="home.html" class="home">
+        <img src="../assets/home.png" alt="Botão para ir para página Home" class="homeimg" />
+      </a>
+      <a href="login.html" class="login">
+        <img src="../assets/user.png" alt="Login" class="loginImg" />
+      </a>
+    </div>
+  </header>
+  <main>
+    <div class="switch">
+      <button class="buttonOff" onclick="darkMode()">
+        <img src="../assets/LightOff.png" alt="botão lampada dark mode" />
+      </button>
+      <button class="buttonOn" onclick="lightMode()">
+        <img src="../assets/LightOn.png" alt="botão lampada light mode" />
+      </button>
+    </div>
+    <section class="RH__items">
+      <h2 class="text__RH">CONTROLE DE COLABORADORES</h2>
+      <div class="box__RH">
+        <select name="selecionar" id="selecionar" class="main__select__RH">
+          <option value="" disabled selected>
+            Selecione a filial desejada
+          </option>
+          <option value="Filial 1">Filial 1</option>
+          <option value="Filial 2">Filial 2</option>
+          <option value="Filial 3">Filial 3</option>
+          <option value="Filial 4">Filial 4</option>
+          <option value="Filial 5">Filial 5</option>
+          <option value="Filial 6">Filial 6</option>
+          <option value="Filial 7">Filial 7</option>
+          <option value="Filial 8">Filial 8</option>
+          <option value="Filial 9">Filial 9</option>
+          <option value="Filial 10">Filial 10</option>
+        </select>
+        <img src="../assets/RH.png" alt="quadro de colaboradores super-mercado" class="RH__image">
       </div>
-    </footer>
-  </body>
+    </section>
+  </main>
+  <footer>
+    <div class="baseboard">
+      <img src="../assets/logoemp2.png" class="customerlogo" />
+      <p class="textcustomerlogo">
+        Poupe seu tempo, revolucione sua forma de fazer compras.
+      </p>
+    </div>
+
+    <div class="baseboard">
+      <p class="contact">CONTATO</p>
+      <p class="textcontact">endereço</p>
+      <p class="textcontact">e-mail</p>
+      <p class="textcontact">telefone</p>
+      <p class="text">© 2023 Copyright:ServiceTechMoney</p>
+    </div>
+
+    <div class="baseboard">
+      <p class="textfounderslogo">Site criado e desenvolvido por:</p>
+      <a href="founders.html" class="founders">
+        <img src="../assets/logoSTM.png" alt="Logo dos fundadores" class="logofounders" /></a>
+    </div>
+  </footer>
+</body>
+
 </html>
