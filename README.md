@@ -9,7 +9,7 @@ Solutions Tech Money
 
 ## 📋 Índice
 
-- [Sobre](#sobre-projeto)
+- [Sobre](#-sobre-projeto)
 - [Tecnologias utilizadas](#-tecnologias-utilizadas)
 - [Construído com](#%EF%B8%8F-construído-com)
 - [Autores](#%EF%B8%8F-autores)
