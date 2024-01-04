@@ -1,6 +1,6 @@
 #TCC - MULHERES PRETAS IN TECH
 
-Solutions Tech Money
+
 
 
 
