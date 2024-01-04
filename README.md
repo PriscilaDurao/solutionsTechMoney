@@ -1,6 +1,6 @@
 #TCC - MULHERES PRETAS IN TECH
-
 Solutions Tech Money
+
 
 
 ![Logo](https://github.com/PriscilaDurao/solutionsTechMoney/blob/main/assets/logoSTM.png)
@@ -9,7 +9,7 @@ Solutions Tech Money
 
 ## 📋 Índice
 
-- [Sobre](#-sobre-projeto)
+- [Sobre](#Sobre)
 - [Tecnologias utilizadas](#-tecnologias-utilizadas)
 - [Construído com](#%EF%B8%8F-construído-com)
 - [Autores](#%EF%B8%8F-autores)
