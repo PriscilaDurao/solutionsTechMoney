@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/sales_and_purchase_report.css"/>
+    <link rel="stylesheet" href="../css/sales_and_purchase_report.css" />
     <script src="../js/script.js" defer></script>
+    <script src="../js/back.js" defer></script>
 
     <title>Solutions Tech Money</title>
   </head>
@@ -19,7 +20,11 @@
       /></a>
       <div class="up">
         <a href="home.html" class="home">
-          <img src="../assets/home.png" alt="Botão para ir para página Home" class="home_Img"/>
+          <img
+            src="../assets/home.png"
+            alt="Botão para ir para página Home"
+            class="home_Img"
+          />
         </a>
         <a href="login.html" class="login">
           <img src="../assets/user.png" alt="Login" class="login_Img" />
@@ -35,47 +40,70 @@
           <img src="../assets/LightOn.png" alt="botão lampada light mode" />
         </button>
       </div>
+      <button onclick="goBack()">
+        <img
+          src="../assets/setavoltar.png"
+          alt="Seta para voltar uma página"
+          class="arrow_return"
+        />
+      </button>
       <section class="sales_and_purchase_items">
         <h2 class="title_sales_and_purchase">RELATÓRIO DE COMPRAS</h2>
         <div class="sales_and_purchase_body">
           <div class="report_left_right">
-        <select name="selecionar" id="selecionar" class="main__select__purchase__left">
-          <option value="" disabled selected>
-            Selecione a filial desejada
-          </option>
-          <option value="Filial 1">Filial 1</option>
-          <option value="Filial 2">Filial 2</option>
-          <option value="Filial 3">Filial 3</option>
-          <option value="Filial 4">Filial 4</option>
-          <option value="Filial 5">Filial 5</option>
-          <option value="Filial 6">Filial 6</option>
-          <option value="Filial 7">Filial 7</option>
-          <option value="Filial 8">Filial 8</option>
-          <option value="Filial 9">Filial 9</option>
-          <option value="Filial 10">Filial 10</option>
-        </select>
-        <img src="../assets/Relatório de compra.png" alt="Relatório de compra empresa com gráfico em barra" class="img_report_left">
-      </div>
-      <div class="report_left_right" style="margin-top: 6.5rem;">
-      <select name="selecionar" id="selecionar" class="main__select__purchase__right">
-        <option value="" disabled selected>
-          Selecione a filial desejada
-        </option>
-        <option value="Filial 1">Filial 1</option>
-        <option value="Filial 2">Filial 2</option>
-        <option value="Filial 3">Filial 3</option>
-        <option value="Filial 4">Filial 4</option>
-        <option value="Filial 5">Filial 5</option>
-        <option value="Filial 6">Filial 6</option>
-        <option value="Filial 7">Filial 7</option>
-        <option value="Filial 8">Filial 8</option>
-        <option value="Filial 9">Filial 9</option>
-        <option value="Filial 10">Filial 10</option>
-      </select>
-        <img src="../assets/Relatório de compra 2.png" alt="Relatório de compra empresa com gráfico em pizza" class="img_report_right">
-      </div>
+            <select
+              name="selecionar"
+              id="selecionar"
+              class="main__select__purchase__left"
+            >
+              <option value="" disabled selected>
+                Selecione a filial desejada
+              </option>
+              <option value="Filial 1">Filial 1</option>
+              <option value="Filial 2">Filial 2</option>
+              <option value="Filial 3">Filial 3</option>
+              <option value="Filial 4">Filial 4</option>
+              <option value="Filial 5">Filial 5</option>
+              <option value="Filial 6">Filial 6</option>
+              <option value="Filial 7">Filial 7</option>
+              <option value="Filial 8">Filial 8</option>
+              <option value="Filial 9">Filial 9</option>
+              <option value="Filial 10">Filial 10</option>
+            </select>
+            <img
+              src="../assets/Relatório de compra.png"
+              alt="Relatório de compra empresa com gráfico em barra"
+              class="img_report_left"
+            />
+          </div>
+          <div class="report_left_right" style="margin-top: 6.5rem">
+            <select
+              name="selecionar"
+              id="selecionar"
+              class="main__select__purchase__right"
+            >
+              <option value="" disabled selected>
+                Selecione a filial desejada
+              </option>
+              <option value="Filial 1">Filial 1</option>
+              <option value="Filial 2">Filial 2</option>
+              <option value="Filial 3">Filial 3</option>
+              <option value="Filial 4">Filial 4</option>
+              <option value="Filial 5">Filial 5</option>
+              <option value="Filial 6">Filial 6</option>
+              <option value="Filial 7">Filial 7</option>
+              <option value="Filial 8">Filial 8</option>
+              <option value="Filial 9">Filial 9</option>
+              <option value="Filial 10">Filial 10</option>
+            </select>
+            <img
+              src="../assets/Relatório de compra 2.png"
+              alt="Relatório de compra empresa com gráfico em pizza"
+              class="img_report_right"
+            />
+          </div>
+        </div>
       </section>
-    </div>
     </main>
     <footer>
       <div class="base_board">
