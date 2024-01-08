@@ -30,6 +30,11 @@
     height: 41rem;
 }
 
+.img_report_sales_left {
+    width: 83rem;
+    height: 41rem;
+}
+
 .main__select__purchase__left {
     border-radius: 50px;
     width: 20rem;
@@ -38,6 +43,17 @@
     z-index: 4;
     margin-bottom: -6.5rem;
     margin-left: 1.5rem;
+}
+
+.main__select__purchase__sales__left{
+    border-radius: 50px;
+    width: 20rem;
+    text-align: center;
+    margin-left: 31rem;
+    z-index: 4;
+    margin-bottom: -6rem;
+    margin-left: 0.2rem;
+
 }
 
 .img_report_right {
