@@ -55,14 +55,15 @@
   display: none;
 }
 
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color:  rgba(123, 85, 231, 0.7659433402267157);
+  color: rgba(123, 85, 231, 0.7659433402267157);
   font-weight: bold;
   font-size: 20px;
   transition: 0.6s ease;
@@ -75,23 +76,29 @@
   border-radius: 3px 0 0 3px;
 }
 
-.prev:hover, .next:hover {
-  background-color:  rgba(235, 160, 10, 0.53);
+.prev:hover,
+.next:hover {
+  background-color: rgba(235, 160, 10, 0.53);
+}
+
+.box_dot {
+  text-align: center;
+  margin-top: -2.5rem;
 }
 
 .dot {
   cursor: pointer;
   height: 10px;
   width: 10px;
-  margin: 0 2px;
-  background-color:rgba(123, 85, 231, 0.7659433402267157);
+  background-color: rgba(123, 85, 231, 0.7659433402267157);
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
-  background-color:  rgba(235, 160, 10, 0.53);
+.active,
+.dot:hover {
+  background-color: rgba(235, 160, 10, 0.53);
 }
 
 .fade {
@@ -100,6 +107,11 @@
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
