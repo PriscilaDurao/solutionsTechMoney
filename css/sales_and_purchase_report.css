@@ -1,0 +1,55 @@
+.sales_and_purchase_items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.title_sales_and_purchase {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sales_and_purchase_body {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.report_left_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.img_report_left {
+    width: 80rem;
+    height: 41rem;
+}
+
+.main__select__purchase__left {
+    border-radius: 50px;
+    width: 20rem;
+    text-align: center;
+    margin-left: 31rem;
+    z-index: 4;
+    margin-bottom: -6.5rem;
+    margin-left: 1.5rem;
+}
+
+.img_report_right {
+    width: 35rem;
+    height: 41rem;
+}
+
+.main__select__purchase__right {
+    border-radius: 50px;
+    width: 20rem;
+    text-align: center;
+    z-index: 4;
+    margin-bottom: -8rem;
+    margin-left: 1.5rem;
+}
