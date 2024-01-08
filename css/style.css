@@ -23,6 +23,7 @@
   --boxcolor: rgb(255, 255, 255);
   --gradient-color: linear-gradient(180deg, rgba(237, 95, 17, 0.57) 28.22%, rgba(72, 14, 238, 0.53) 100%);
 }
+
 /* html {
   height: 100%;
 } */
@@ -36,7 +37,7 @@ body {
 }
 
 main {
-  height: 43rem;
+  height: 46.5rem;
 }
 
 /* header */
@@ -49,6 +50,10 @@ header {
   background: var(--gradient-color);
   height: 10rem;
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
 }
 
 .logo_Emp_Img {
@@ -78,6 +83,22 @@ header {
 
 .up {
   padding-right: 2.3rem;
+
+}
+
+.items_right {
+  display: flex;
+  flex-direction: column;
+  align-items: end; 
+}
+
+.arrow_return {
+  position: fixed;
+  right: 0.5%;
+  bottom: 20%;
+  height: 4rem; 
+  width: 6rem;
+  cursor: pointer;
 }
 
 /* switch */
@@ -90,6 +111,7 @@ header {
 
 .switch {
   position: relative;
+  
 }
 
 .button_On {
@@ -165,6 +187,7 @@ footer {
   align-self: center;
   color: var(colortext-footer);
 }
+
 .customer_logo {
   align-self: center;
   width: 5rem;
