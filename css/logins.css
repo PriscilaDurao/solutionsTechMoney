@@ -15,9 +15,7 @@
 
 
 .header__title {
-  font-family: 'Montserrat', sans-serif;
-  font-style: bold;
-  font-size: 48px;
+  font-size: 40px;
 }
 
 .link__login {
@@ -30,8 +28,9 @@
 }
 
 .choice__header {
-  font-size: 30px;
+  font-size: 26px;
   color: rgba(0, 0, 0, 0.68);
+  margin-top: -1.2rem;
 }
 
 .link__browse {
