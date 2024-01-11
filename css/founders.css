@@ -18,7 +18,7 @@
     height: 85px;
     text-align: center;
     padding: 1.5rem;
-    margin-left: 400px;
+    margin-left: 200px;
   }
 
   .page_presentation{
@@ -29,10 +29,11 @@
 
   .founders_presentation{
     display: grid;
-    grid-template-columns:300px 300px;
+    /* grid-template-columns:300px 300px; */
     align-content: center;
     gap: 3rem;
-    margin-left: -5rem;
+    margin-left: -1rem;
+    margin-top: -4rem;
   }
 
   .profile_founder{
@@ -45,20 +46,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: -5rem;
-    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
   }
 
   .link_founders{
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .img_founders{
     width: 3rem;
     height: 3rem;
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
   }
 
 .founder_profile{
