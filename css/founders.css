@@ -1,7 +1,10 @@
 /* founders*/
 
 .founders{
-    display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -2.5rem;
 }
 
 .header {
@@ -16,30 +19,41 @@
   .logo__name{
     width: 600px;
     height: 85px;
-    text-align: center;
     padding: 1.5rem;
-    margin-left: 200px;
   }
 
   .page_presentation{
-    display: flex;
-    flex-direction: row;
-    gap: 6rem;
+    column-count: 2;
+    margin-top: -1.5rem;
   }
 
   .founders_presentation{
     display: grid;
-    /* grid-template-columns:300px 300px; */
     align-content: center;
-    gap: 3rem;
-    margin-left: -1rem;
-    margin-top: -4rem;
+    justify-content: start;
+    align-items: center;
+    justify-items: center;
   }
 
   .profile_founder{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-left: 10rem;
+  }
+
+  .profile_founder2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 58rem;
+  }
+
+  .profile_founder3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 105rem;
   }
 
   .text_link_founders{
