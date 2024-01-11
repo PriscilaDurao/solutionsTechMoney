@@ -51,7 +51,6 @@ CLicar no nosso link em nossa descrição
 
 * **Bruna Campos** - *Desenvolvimento do código*  [broobs](https://github.com/broobs)
 * **Priscila Durao** - *Desenvolvimento do código*  [PriscilaDurao](https://github.com/PriscilaDurao)
-* **Tatiana Aquino** - *Desenvolvimento do código*  [Tatiaquinoo](https://github.com/Tatiaquinoo)
 * **Thaís Andrade** - *Desenvolvimento do código*  [andradetoa](https://github.com/andradetoa)
 
 ---
