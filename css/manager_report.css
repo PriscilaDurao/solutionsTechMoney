@@ -6,27 +6,27 @@
 .manager__text {
     text-align: center;
     font-size: 24px;
-    margin-top: -2rem;
+    margin-top: -2.5rem;
 }
 
 .box__manager__report {
-    margin-top: 4rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.main__select__manager__report {
+.select__manager__report {
+    margin-bottom: -3rem;
     border-radius: 50px;
     width: 20rem;
-    margin-bottom: -6rem;
     text-align: center;
     z-index: 4;
 
 }
 
 .img__manager__report {
-    height: 43rem;
-    width: 80rem;
+
+    width: 32rem;
     align-items: center;
 }

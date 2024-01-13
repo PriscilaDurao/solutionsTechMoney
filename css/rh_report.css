@@ -20,14 +20,12 @@
 .main__select__RH {
     border-radius: 50px;
     width: 20rem;
-    margin-bottom: -6rem;
+    margin: 0 5rem -6rem 0;
     text-align: center;
     z-index: 4;
 }
 
 .RH__image {
-    margin-left: 5rem;
     width: 80rem;
-    height: 43rem;
     align-items: center;
 }
