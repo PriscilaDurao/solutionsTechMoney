@@ -20,6 +20,7 @@
 }
 
 .user__box {
+  position: relative;
   width: 45rem;
   height: 4rem;
   border: none;
@@ -47,4 +48,12 @@
 .acsses__button:hover{ background-color:  rgba(235, 160, 10, 0.53);
 }
 
+.user i{
+position: absolute;
+font-size: 30px;
+cursor: pointer;
+right: 55rem;
+
+
+}
 

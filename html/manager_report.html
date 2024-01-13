@@ -3,17 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/logine_senha.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    
+    <link rel="stylesheet" href="../css/inventory_control.css" />
     <script src="../js/script.js" defer></script>
     <script src="../js/back.js" defer></script>
-    <script src="../js/password.js" defer></script>
 
     <title>Solutions Tech Money</title>
   </head>
-
   <body>
     <header id="top">
       <a href="home.html" class="home"
@@ -21,8 +17,7 @@
           src="../assets/logoemp.png"
           alt="Coloque sua logo aqui."
           class="logo_Emp_Img"
-        />
-      </a>
+      /></a>
       <div class="up">
         <a href="home.html" class="home">
           <img
@@ -31,9 +26,9 @@
             class="home_Img"
           />
         </a>
-        <a href="cart.html" class="cart">
-          <img src="../assets/cart.png" alt="Carrinho" class="cart_Img"
-        /></a>
+        <a href="login.html" class="login">
+          <img src="../assets/user.png" alt="Login" class="login_Img" />
+        </a>
       </div>
     </header>
     <main>
@@ -51,23 +46,34 @@
           alt="Seta para voltar uma página"
           class="arrow_return"
         />
-      </button>
-      <div class="login__user">
-        <h2 class="cabecalho__logins">Login</h2>
-      </div>
-      <br />
-      <div class="user">
-        <input
-          class="user__box"
-          type="text"
-          placeholder="Digite sua Matrícula"
-          required
-        />
-        <br />
-        <input class="user__box" type="password" placeholder="Senha" id="Password" />
-        <br />
-        <a class="acsses__button" href="manager_menu.html">Entrar</a>
-      </div>
+      </button>      
+      <section class="__items">
+        <h2 class="__text">DE FILIAIS</h2>
+        <div class="box__">
+          <select
+            name="selecionar"
+            id="selecionar"
+            class="main__select__"
+          >
+            <option value="" disabled selected>Selecione uma das Opções</option>
+            <option value="Filial 1">Filial 1</option>
+            <option value="Filial 2">Filial 2</option>
+            <option value="Filial 3">Filial 3</option>
+            <option value="Filial 4">Filial 4</option>
+            <option value="Filial 5">Filial 5</option>
+            <option value="Filial 6">Filial 6</option>
+            <option value="Filial 7">Filial 7</option>
+            <option value="Filial 8">Filial 8</option>
+            <option value="Filial 9">Filial 9</option>
+            <option value="Filial 10">Filial 10</option>
+          </select>
+          <img
+            src="../assets/"
+            alt="relatório de  do super-mercado"
+            class="img__inventory"
+          />
+        </div>
+      </section>
     </main>
     <footer>
       <div class="base_board">
