@@ -2,7 +2,7 @@
   font-family: "SegoeUI";
   src: local("SegoeUI"),
     url("./fonts/SegoeUI.ttf") format("truetype");
-  font-weight: bold;
+  font-weight: 700;
 }
 
 * {
@@ -46,6 +46,7 @@ header {
   background: var(--gradient-color);
   height: 10rem;
   box-sizing: border-box;
+
 }
 
 a {
@@ -74,6 +75,7 @@ a {
   width: 3.3rem;
   height: 3rem;
   padding-left: 0.5rem;
+  align-items: end; 
 }
 
 
@@ -114,7 +116,7 @@ a {
   background-color: var(--background-dark);
   position: absolute;
   top: 2rem;
-  right: 13px;
+  right: 1rem;
   visibility: hidden;
   opacity: 0;
   border: none;
@@ -124,7 +126,7 @@ a {
   background-color: var(--background-padrao);
   position: absolute;
   top: 2rem;
-  right: 13px;
+  right: 1rem;
   border: none;
 }
 
@@ -200,7 +202,7 @@ footer {
 }
 
 .contact {
-  font-size: 18px;
+  font-size: 1,5rem;
   font-weight: bold;
   padding-top: 2rem;
   padding-bottom: 1rem;
@@ -210,7 +212,7 @@ footer {
 
 
 .text {
-  font-size: 13px;
+  font-size: 1rem;
   box-sizing: border-box;
   color: var(--colortext-footer);
   text-align: center;
@@ -220,7 +222,7 @@ footer {
 }
 
 .devs {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   padding-top: 2rem;
   padding-bottom: 1rem;
@@ -245,7 +247,7 @@ footer {
 }
 
 .logins {
-  font-size: 25px;
+  font-size: 1,5rem;
   font-family: 'Montserrat', sans-serif;
   padding-top: 3rem;
   padding-left: 70rem;
