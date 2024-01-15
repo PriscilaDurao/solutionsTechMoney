@@ -5,7 +5,7 @@
 
 .manager__text {
     text-align: center;
-    font-size: 24px;
+    font-size: 1,5rem;
     margin-top: -2.5rem;
 }
 
@@ -26,7 +26,6 @@
 }
 
 .img__manager__report {
-
     width: 32rem;
     align-items: center;
 }
