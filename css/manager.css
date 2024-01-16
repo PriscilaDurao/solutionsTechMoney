@@ -8,26 +8,27 @@
 .header {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  font-size: 1.5rem;
   justify-content: center;
   padding-left: 10rem;
   margin-left: 15rem;
-  margin-top: 3.5rem;
   line-height: 1.8;
 }
 
 .header__title {
-  font-size: 3rem;
+  font-size: 4rem;
+  align-self: center;
 }
 
 .choice__header {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: rgba(0, 0, 0, 0.68);
+  align-self: center;
 }
 
 .include__logo {
-  width: auto;
+  width: 20rem;
+  align-self: center;
+  margin-top: 0.5rem;
 }
 
 .links {
