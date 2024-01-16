@@ -156,6 +156,10 @@ body.darkMode h2 {
   color: var(--background-padrao);
 }
 
+body.darkMode h3 {
+  color: var(--background-padrao);
+}
+
 body.darkMode .carousel-indicators button.buttonCarousel {
   background-color: var(--cor-padrao);
 }
