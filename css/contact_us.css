@@ -24,7 +24,7 @@
 }
 
 .text_suport1 {
-    font-size: 1,5rem;
+    font-size: 3rem;
 }
 
 .text_suport2 {
@@ -45,7 +45,7 @@
     text-align: center;
     width: 55rem;
     height: 36rem;
-    border-radius: 10px;
+    border-radius: 0.62rem;
     background: var(--boxcolor);
     gap: 1rem;
     padding-top: 1.5rem;
@@ -54,19 +54,19 @@
 .contact_box {
     width: 45rem;
     height: 2rem;
-    border-radius: 20px;
-    border: 1px solid #000;
+    border-radius: 1.25rem;
+    border: 0.06rem solid #000;
     background-color: var(--boxcolor);
-    font-size: 15px;
+    font-size: 1.2rem;
     padding-left: 1rem;
 }
 
 .msg_suport {
     width: 45rem;
     height: 18rem;
-    border-radius: 20px;
-    border: 1px solid #000;
-    font-size: 1rem;
+    border-radius: 0.94rem;
+    border: 0.06rem solid #000;
+    font-size: 1.2rem;
     padding: 1rem;
     resize: none;
     background-color: var(--boxcolor);
@@ -76,21 +76,21 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     gap: 4rem;
 }
 
 .checkbox {
     margin-right: 4.5rem;
     justify-content: space-around;
-    border: 1px solid #000;
+    border: 0.06rem solid #000;
 }
 
 .send_suport {
     background: rgba(137, 113, 203, 0.766);
     width: 15rem;
     height: 4rem;
-    border-radius: 10px;
+    border-radius: 0.63rem;
     color: #ffffff;
     text-decoration: none;
     text-align: center;

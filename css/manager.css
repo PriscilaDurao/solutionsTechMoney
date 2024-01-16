@@ -9,9 +9,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-size: 1,5rem;
+  font-size: 1.5rem;
   justify-content: center;
-  font-family: 'Montserrat', sans-serif;
   padding-left: 10rem;
   margin-left: 15rem;
   margin-top: 3.5rem;
@@ -23,7 +22,7 @@
 }
 
 .choice__header {
-  font-size: 1,5rem;
+  font-size: 1.5rem;
   color: rgba(0, 0, 0, 0.68);
 }
 
@@ -37,7 +36,7 @@
   display: flex;
   text-align: center;
   flex-direction: column;
-  gap: 10px;
+  gap: 0.6250rem;
 }
 
 .link__browse {
@@ -47,15 +46,14 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  gap: 32px;
-  border-radius: 10px;
+  gap: 2rem;
+  border-radius: 0.6250rem;
   padding: 1.3rem;
   align-items: center;
   font-size: 1.2rem;
   font-weight: 600;
   text-decoration: none;
   color: #ffffff;
-  font-family: Montserrat, sans-serif;
 }
 
 .link__browse:hover {

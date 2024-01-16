@@ -27,7 +27,7 @@
 .link__login {
   width: 15%;
   flex-shrink: 0;
-  padding: 10px;
+  padding: 0.6250rem;
 }
 
 .choice__header {
@@ -47,7 +47,7 @@
   background: #8971cbc3;
   width: 30rem;
   height: 4rem;
-  border-radius: 10px;
+  border-radius: 0.6250rem;
   display: flex;
   flex-direction: column;
   align-items: center;

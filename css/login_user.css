@@ -21,7 +21,7 @@
     width: 45rem;
     height: 4rem;
     border: none;
-    border-radius: 10px;
+    border-radius: 0.6250rem;
     background-color: var(--boxcolor);
     display: flex;
     font-size: 2rem;
@@ -34,7 +34,7 @@
     background: #8971cbc3;
     width: 25rem;
     height: 4rem;
-    border-radius: 10px;
+    border-radius: 0.6250rem;
     color: #ffffff;
     text-decoration: none;
     text-align: center;
