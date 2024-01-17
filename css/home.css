@@ -116,3 +116,15 @@ text-align: center;
     opacity: 1
   }
 }
+
+@media (max-width: 1048px) {
+  .search_Box {
+  display: none;
+  }
+
+  .slide_show_container {
+    max-width: 85%;
+    max-height: 100%;
+}
+
+}
