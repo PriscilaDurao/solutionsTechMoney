@@ -1,7 +1,4 @@
-[bluid]
-    publisg = "."
-
 [[redirects]]
-from = "/home"
-to = "/index.html"
-status = 200
+  from = "/*"
+  to = "/home.html"
+  status = 200
