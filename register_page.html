@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/register_page.css" />
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/inventory_control.css" />
     <script src="../js/script.js" defer></script>
     <script src="../js/back.js" defer></script>
 
@@ -12,14 +12,13 @@
   </head>
   <body>
     <header id="top">
-      <a href="home.html" class="home"
-        ><img
-          src="../assets/logoemp.png"
-          alt="Coloque sua logo aqui."
-          class="logo_Emp_Img"
-      /></a>
+      <img
+        src="../assets/logoemp.png"
+        alt="Coloque sua logo aqui."
+        class="logo_Emp_Img"
+      />
       <div class="up">
-        <a href="home.html" class="home">
+        <a href="index.html" class="home">
           <img
             src="../assets/home.png"
             alt="Botão para ir para página Home"
@@ -46,34 +45,54 @@
           alt="Seta para voltar uma página"
           class="arrow_return"
         />
-      </button>      
-      <section class="inventory__items">
-        <h2 class="invetory__text">CONTROLE DE ESTOQUE DE FILIAIS</h2>
-        <div class="box__inventory">
-          <select
-            name="selecionar"
-            id="selecionar"
-            class="main__select__inventory"
-          >
-            <option value="" disabled selected>Selecione uma das Opções</option>
-            <option value="Filial 1">Filial 1</option>
-            <option value="Filial 2">Filial 2</option>
-            <option value="Filial 3">Filial 3</option>
-            <option value="Filial 4">Filial 4</option>
-            <option value="Filial 5">Filial 5</option>
-            <option value="Filial 6">Filial 6</option>
-            <option value="Filial 7">Filial 7</option>
-            <option value="Filial 8">Filial 8</option>
-            <option value="Filial 9">Filial 9</option>
-            <option value="Filial 10">Filial 10</option>
-          </select>
-          <img
-            src="../assets/inventory.png"
-            alt="relatório de inventário do super-mercado"
-            class="img__inventory"
-          />
-        </div>
-      </section>
+      </button>
+      <h2 class="text__register">Cadastre seu usuário</h2>
+      <br />
+      <div class="register">
+        <input
+          class="register__box"
+          type="text"
+          placeholder="E-mail"
+          required
+        />
+        <br />
+        <input
+          class="register__box"
+          type="text"
+          placeholder="Nome completo"
+          required
+        />
+        <br />
+        <input
+          class="register__box"
+          type="text"
+          placeholder="CPF/CNPJ"
+          required
+        />
+        <br />
+        <input
+          class="register__box"
+          type="date"
+          placeholder="Data de Nascimento"
+          required
+        />
+        <br />
+        <input
+          class="register__box"
+          type="password"
+          placeholder="Senha"
+          required
+        />
+        <br />
+        <input
+          class="register__box"
+          type="password"
+          placeholder="Confirme sua senha"
+          required
+        />
+        <br />
+        <a class="register__button" href="index.html">Cadastrar</a>
+      </div>
     </main>
     <footer>
       <div class="base_board">
@@ -82,7 +101,6 @@
           Poupe seu tempo, revolucione sua forma de fazer compras.
         </p>
       </div>
-
       <div class="base_board">
         <p class="contact">CONTATO</p>
         <p class="text_contact">endereço</p>
@@ -90,7 +108,6 @@
         <p class="text_contact">telefone</p>
         <p class="text">© 2023 Copyright:ServiceTechMoney</p>
       </div>
-
       <div class="base_board">
         <p class="text_founders_logo">Site criado e desenvolvido por:</p>
         <a href="founders.html" class="founders">

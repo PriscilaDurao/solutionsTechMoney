@@ -3,34 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/login_user.css" />
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/manager_report.css">
     <script src="../js/script.js" defer></script>
     <script src="../js/back.js" defer></script>
 
     <title>Solutions Tech Money</title>
   </head>
-
   <body>
     <header id="top">
-      <a href="home.html" class="home"
+      <a href="index.html" class="home"
         ><img
           src="../assets/logoemp.png"
           alt="Coloque sua logo aqui."
           class="logo_Emp_Img"
-        />
-      </a>
+      /></a>
       <div class="up">
-        <a href="home.html" class="home">
+        <a href="index.html" class="home">
           <img
             src="../assets/home.png"
             alt="Botão para ir para página Home"
             class="home_Img"
           />
         </a>
-        <a href="cart.html" class="cart">
-          <img src="../assets/cart.png" alt="Carrinho" class="cart_Img"
-        /></a>
+        <a href="login.html" class="login">
+          <img src="../assets/user.png" alt="Login" class="login_Img" />
+        </a>
       </div>
     </header>
     <main>
@@ -48,27 +46,34 @@
           alt="Seta para voltar uma página"
           class="arrow_return"
         />
-      </button>
-      <div class="login__user">
-        <h2 class="cabecalho__logins__user">Login do Usuário</h2>
-      </div>
-      <br />
-      <div class="user">
-        <input
-          class="user__box"
-          type="text"
-          placeholder="Digite o e-mail cadastrado"
-          required
-        />
-        <br />
-        <input class="user__box" type="password" placeholder="Senha" required />
-        <br />
-        <a class="acsses__button" href="home.html">Entrar</a>
-        <br />
-        <p class="registerlink">
-          Não tem cadastro?<a href="register_page.html"> clique aqui!</a>
-        </p>
-      </div>
+      </button>      
+      <section class="manager__items">
+        <h2 class="manager__text">RELATÓRIO DE FILIAIS</h2>
+        <div class="box__manager__report">
+          <select
+            name="selecionar"
+            id="selecionar"
+            class="select__manager__report"
+          >
+            <option value="" disabled selected>Selecione uma das Opções</option>
+            <option value="Filial 1">Filial 1</option>
+            <option value="Filial 2">Filial 2</option>
+            <option value="Filial 3">Filial 3</option>
+            <option value="Filial 4">Filial 4</option>
+            <option value="Filial 5">Filial 5</option>
+            <option value="Filial 6">Filial 6</option>
+            <option value="Filial 7">Filial 7</option>
+            <option value="Filial 8">Filial 8</option>
+            <option value="Filial 9">Filial 9</option>
+            <option value="Filial 10">Filial 10</option>
+          </select>
+          <img
+            src="../assets/manager-report.jpeg"
+            alt="relatório de gerentes do super-mercado"
+            class="img__manager__report"
+          />
+        </div>
+      </section>
     </main>
     <footer>
       <div class="base_board">
