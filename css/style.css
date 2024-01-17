@@ -2,7 +2,6 @@
   font-family: "SegoeUI";
   src: local("SegoeUI"),
     url("./fonts/SegoeUI.ttf") format("truetype");
-  font-weight: 700;
 }
 
 * {
@@ -22,6 +21,7 @@
   --colortext-footer: rgba(0, 0, 0, 0.68);
   --boxcolor: rgb(255, 255, 255);
   --gradient-color: linear-gradient(180deg, rgba(237, 95, 17, 0.57) 28.22%, rgba(72, 14, 238, 0.53) 100%);
+  
 }
 
 body {
@@ -252,4 +252,52 @@ footer {
   font-size: 1.5rem;
   padding-top: 3rem;
   padding-left: 70rem;
+}
+
+@media (max-width: 1048px) {
+
+footer {
+  gap: 0;
+  height: auto;
+}
+
+.base_board  {
+  width: 30%;
+}
+
+.contact .text_founders_logo {
+  font-size: 1.4rem;
+}
+
+.text_contact {
+  font-size: 1.2rem;
+}
+
+
+ .logo_Emp_Img{
+      width: 25%;
+      height: 60%;
+      padding-left: 1.5rem;
+  }
+
+  .button_Off img, .button_On img {
+    width: 30%;
+    height: 0.5%;
+  }
+
+  .switch {
+  margin-right: -2rem;
+  margin-top: -1rem;
+  }
+
+.customer_logo {
+  width: 30%;
+  height: 10%;
+}
+
+
+.logo_founders {
+  width: 100%;
+  height: 40%;
+}
 }
