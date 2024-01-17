@@ -4,31 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/feed_backs.css" />
+    <link rel="stylesheet" href="../css/logins.css" />
     <script src="../js/script.js" defer></script>
     <script src="../js/back.js" defer></script>
 
     <title>Solutions Tech Money</title>
   </head>
+
   <body>
     <header id="top">
-      <a href="home.html" class="home"
+      <a href="index.html" class="home"
         ><img
           src="../assets/logoemp.png"
           alt="Coloque sua logo aqui."
-          class="logo?_Emp_Img"
-      /></a>
+          class="logo_Emp_Img"
+        />
+      </a>
       <div class="up">
-        <a href="home.html" class="home">
+        <a href="index.html" class="home">
           <img
             src="../assets/home.png"
             alt="Botão para ir para página Home"
             class="home_Img"
           />
         </a>
-        <a href="login.html" class="login">
-          <img src="../assets/user.png" alt="Login" class="login_Img" />
-        </a>
+        <a href="cart.html" class="cart">
+          <img src="../assets/cart.png" alt="Carrinho" class="cart_Img"
+        /></a>
       </div>
     </header>
     <main>
@@ -47,44 +49,36 @@
           class="arrow_return"
         />
       </button>
-      <div>
-        <h2 class="feedback__text">AVALIAÇÕES DE CLIENTES</h2>
-      </div>
-      <section class="feedbacks__imgs">
-        <img
-          src="../assets/feedbacks.png"
-          alt="porcentagem de avaliações deixadas pelos clientes"
-          class="feedback__feedback"
-        />
-        <div class="box__select">
-          <img
-            src="../assets/clientsmessengers.png"
-            alt="mensagens deixadas na avaliação"
-            class="feedback__messenger"
-          />
-          <select name="ver mais" id="vermais" class="period__select">
-            <option value="" disabled selected>--Selecione o período--</option>
-            <option value="Janeiro 2023">Janeiro 2023</option>
-            <option value="Fevereiro 2023">Fevereiro 2023</option>
-            <option value="Março 2023">Março 2023</option>
-            <option value="Abril 2023">Abril 2023</option>
-            <option value="Maio 2023">Maio 2023</option>
-            <option value="Junho 2023">Junho 2023</option>
-            <option value="Julho 2023">Julho 2023</option>
-            <option value="Agosto 2023">Agosto 2023</option>
-            <option value="Setembro 2023">Setembro 2023</option>
-            <option value="Outubro 2023">Outubro 2023</option>
-            <option value="Novembro 2023">Novembro 2023</option>
-            <option value="Dezembro 2023">Dezembro 2023</option>
-            <option value="Janeiro 2024">Janeiro 2024</option>
-          </select>
+      <div class="header">
+        <h2 class="header__title">Login</h2>
+        <div>
+          <h3 class="choice__header">Como deseja fazer login?</h3>
         </div>
-        <img
-          src="../assets/quality.png"
-          alt="nota da empresa 8,2"
-          class="feedback__quality"
-        />
-      </section>
+        <div class="image__logins">
+          <img
+            class="link__login"
+            src="../assets/loginadm.png"
+            alt="login gerentes"
+          />
+          <img
+            class="link__login"
+            src="../assets/loginuser.png"
+            alt="login usuário"
+          />
+        </div>
+        <div class="link__browse">
+          <div>
+            <a class="link__login__browse" href="login_adm.html"
+              >ENTRAR COMO ADM</a
+            >
+          </div>
+          <div>
+            <a class="link__login__browse" href="login_user.html"
+              >ENTRAR COMO USUÁRIO</a
+            >
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
       <div class="base_board">
