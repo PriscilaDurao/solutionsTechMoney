@@ -43,7 +43,7 @@ A ideia foi desenvolver um site para solucionar as grandes filas e insatisfaçõ
 
 ## ⌨ Como executar o projeto
 
-[Clique aqui](https://solutionstechmoney.netlify.app/))
+[Clique aqui](https://solutionstechmoney.netlify.app/)
 
 ---
 
